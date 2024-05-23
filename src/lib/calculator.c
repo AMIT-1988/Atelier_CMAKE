@@ -15,4 +15,6 @@ double _mul(double a, double b) {
 double _div(double a, double b) {
 	return a/b;
 }
-	
+double -square(double a) {
+   return a*a;
+}
