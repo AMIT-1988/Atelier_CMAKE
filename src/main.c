@@ -26,10 +26,18 @@ int main(int argc, char *argv[]){
 		r = _div(atof(a), atof(b));
 		printf("%lf",r);
 	}
-	else {printf("Erreur de parametres");}
-	}
-	else {printf("Erreur de parametres");}
-	return 0;
+	
+	else {
+		double _square() {
+    assert(square(0) == 0);
+    assert(square(1) == 1);
+    assert(square(2) == 4);
+    assert(square(-2) == 4);
+    assert(square(10) == 100);
+    assert(square(-10) == 100);
+    printf("All tests passed.\n");
 }
+	}
+	
 
 		
