@@ -29,12 +29,12 @@ int main(int argc, char *argv[]){
 	
 	else {
 		double _square() {
-    assert(square(0) == 0);
-    assert(square(1) == 1);
-    assert(square(2) == 4);
-    assert(square(-2) == 4);
-    assert(square(10) == 100);
-    assert(square(-10) == 100);
+    assert(_square(0) == 0);
+    assert(_square(1) == 1);
+    assert(_square(2) == 4);
+    assert(_square(-2) == 4);
+    assert(_square(10) == 100);
+    assert(_square(-10) == 100);
     printf("All tests passed.\n");
 }
 	}
